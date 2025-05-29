@@ -104,7 +104,7 @@ Accept.MouseButton1Click:Connect(function()
 		wait(0.6)
 		gui:Destroy()
 		-- Shadow Hub laden
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/DEINNAME/ShadowHub/main/shadow_core.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Hecker123451/ShadowHub/main/shadow_core.lua"))()
 	else
 		Accept.Text = "Wrong!"
 		wait(1)
